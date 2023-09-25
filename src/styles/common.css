@@ -136,6 +136,15 @@ body {
   .sale__img img {
     display: none;
   }
+  .sale__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 90px 30px;
+    max-width: unset;
+    width: 100%;
+  }
   .form__title {
     font-size: 50px;
   }
@@ -267,9 +276,10 @@ body {
   }
   .sale__title {
     font-size: 50px;
+    max-width: 340px;
   }
   .sale__text {
-    padding: 60px 20px;
+    padding: 60px 15px;
   }
   .download {
     padding: 0 15px 60px;
