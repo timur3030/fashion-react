@@ -189,6 +189,9 @@ body {
   .header__nav li {
     margin-top: 40px;
   }
+  .header__nav-btn {
+    border: 1px solid #fff;
+  }
   .header__nav a {
     color: #fff;
   }
