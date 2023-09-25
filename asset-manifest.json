@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/fashion-react/static/css/main.c73d54fe.css",
+    "main.js": "/fashion-react/static/js/main.30795ee1.js",
+    "static/media/header-img.jpg": "/fashion-react/static/media/header-img.3266b145a803ea6064bc.jpg",
+    "static/media/promo-img.jpg": "/fashion-react/static/media/promo-img.44bde92e171322bd2929.jpg",
+    "static/media/promo-01.jpg": "/fashion-react/static/media/promo-01.4fc3ca39e368bb92d886.jpg",
+    "static/media/vouchers-img.png": "/fashion-react/static/media/vouchers-img.254242f146515a766546.png",
+    "static/media/cat-03.jpg": "/fashion-react/static/media/cat-03.eb55f780a8fbbaf39b98.jpg",
+    "static/media/cat-01.jpg": "/fashion-react/static/media/cat-01.c4e2270f3eab9f7477cf.jpg",
+    "static/media/promo-02.jpg": "/fashion-react/static/media/promo-02.27a2e3f6b94c48d6427b.jpg",
+    "static/media/cat-02.jpg": "/fashion-react/static/media/cat-02.da44a5e6d64780d948d6.jpg",
+    "static/media/Shopify.png": "/fashion-react/static/media/Shopify.b4131342ebf309c24258.png",
+    "static/media/Amazon.png": "/fashion-react/static/media/Amazon.7897112af9316cea076c.png",
+    "static/media/logo.svg": "/fashion-react/static/media/logo.fa6ed5442940b2375841123db8c623be.svg",
+    "static/media/inst.svg": "/fashion-react/static/media/inst.732079676e1f1e8f5ab8d3607bb89ff5.svg",
+    "index.html": "/fashion-react/index.html",
+    "static/media/tw.svg": "/fashion-react/static/media/tw.28bd6c068f25e4ae67cd362b1da1f8d2.svg",
+    "static/media/in.svg": "/fashion-react/static/media/in.4129b910559039efab168699f9e7c86f.svg",
+    "static/media/arrow.svg": "/fashion-react/static/media/arrow.9d4f9d5e31a0e0b90396898109d19746.svg",
+    "static/media/fb.svg": "/fashion-react/static/media/fb.4faf19d0bfe6a510d553b2e4528e5bf8.svg",
+    "static/media/decor-yellow.svg": "/fashion-react/static/media/decor-yellow.a14a51327547871fd595.svg",
+    "main.c73d54fe.css.map": "/fashion-react/static/css/main.c73d54fe.css.map",
+    "main.30795ee1.js.map": "/fashion-react/static/js/main.30795ee1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c73d54fe.css",
+    "static/js/main.30795ee1.js"
+  ]
+}
