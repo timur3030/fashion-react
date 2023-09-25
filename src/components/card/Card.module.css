@@ -1,0 +1,64 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+}
+
+.card:hover .card__img {
+  opacity: 0.8;
+}
+
+.card:hover .card__icon {
+  animation: slide-arrow 0.7s ease-in-out;
+}
+
+.card__img {
+  border-radius: 20px;
+}
+
+.card__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  height: 100%;
+}
+
+.card__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 7px;
+  height: 100%;
+}
+
+.card__title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.56;
+  letter-spacing: -0.04em;
+}
+
+.card__descr {
+  color: var(--gray);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 2.08;
+  letter-spacing: -0.04em;
+}
+
+.card__icon {
+  position: relative;
+}
+
+@keyframes slide-arrow {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: -30px;
+  }
+  100% {
+    left: 0;
+  }
+}
