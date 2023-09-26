@@ -8,6 +8,7 @@ import Form from "./components/form/Form";
 import Header from "./components/header/Header";
 import Promo from "./components/promo/Promo";
 import Sale from "./components/sale/Sale";
+import ScrollToUp from "./components/scrollToUp/ScrollToUp";
 
 function App() {
   const [arrivals, setArrivals] = useState(null);
@@ -25,6 +26,7 @@ function App() {
   return (
     <div className="App">
       <Header elements={elements} />
+      <ScrollToUp />
       <Promo />
       <Brands />
       <Arrivals getArrivals={getArrivals} />
