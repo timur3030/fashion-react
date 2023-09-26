@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./arrivals.css";
 
 import Card from "../card/Card";
@@ -6,9 +6,13 @@ import imgCard01 from "./../../img/categories/cat-01.jpg";
 import imgCard02 from "./../../img/categories/cat-02.jpg";
 import imgCard03 from "./../../img/categories/cat-03.jpg";
 
-function Arrivals() {
+function Arrivals({ getArrivals }) {
+  const ref = useRef();
+
+  useEffect(() => getArrivals(ref.current));
+
   return (
-    <section className="arrivals">
+    <section className="arrivals" ref={ref}>
       <div className="container">
         <div className="arrivals__header">
           <h2 className="arrivals__title">NEW ARRIVALS</h2>

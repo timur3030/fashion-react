@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./sale.css";
 import imgSale from "./../../img/images/promo-img.jpg";
 
-function Sale() {
+function Sale({ getSale }) {
+  const ref = useRef();
+
+  useEffect(() => getSale(ref.current));
+
   return (
     <section className="sale">
       <div className="sale__content">
         <div className="sale__img">
           <img src={imgSale} alt="Sale img" />
         </div>
-        <div className="sale__text">
+        <div className="sale__text" ref={ref}>
           <h2 className="sale__title">
             <span className="highlight">
               <span>PAYDAY</span>

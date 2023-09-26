@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./favourite.css";
 import Card from "../card/Card";
 
 import imgCard01 from "./../../img/images/promo-01.jpg";
 import imgCard02 from "./../../img/images/promo-02.jpg";
 
-function Favourite() {
+function Favourite({ getFavourite }) {
+  const ref = useRef();
+
+  useEffect(() => getFavourite(ref.current));
+
   return (
-    <section className="favourite">
+    <section className="favourite" ref={ref}>
       <div className="container">
         <div className="favourite__header">
           <h2 className="favourite__title">Young's Favourite</h2>
