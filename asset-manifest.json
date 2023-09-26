@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fashion-react/static/css/main.4cb6e8d6.css",
-    "main.js": "/fashion-react/static/js/main.dac70307.js",
+    "main.css": "/fashion-react/static/css/main.573383cd.css",
+    "main.js": "/fashion-react/static/js/main.db9e22ba.js",
     "static/media/header-img.jpg": "/fashion-react/static/media/header-img.3266b145a803ea6064bc.jpg",
     "static/media/promo-img.jpg": "/fashion-react/static/media/promo-img.44bde92e171322bd2929.jpg",
     "static/media/promo-01.jpg": "/fashion-react/static/media/promo-01.4fc3ca39e368bb92d886.jpg",
@@ -19,12 +19,13 @@
     "static/media/in.svg": "/fashion-react/static/media/in.4129b910559039efab168699f9e7c86f.svg",
     "static/media/arrow.svg": "/fashion-react/static/media/arrow.9d4f9d5e31a0e0b90396898109d19746.svg",
     "static/media/fb.svg": "/fashion-react/static/media/fb.4faf19d0bfe6a510d553b2e4528e5bf8.svg",
+    "static/media/up.svg": "/fashion-react/static/media/up.fb1aab5024c7453ce9affac7de080494.svg",
     "static/media/decor-yellow.svg": "/fashion-react/static/media/decor-yellow.a14a51327547871fd595.svg",
-    "main.4cb6e8d6.css.map": "/fashion-react/static/css/main.4cb6e8d6.css.map",
-    "main.dac70307.js.map": "/fashion-react/static/js/main.dac70307.js.map"
+    "main.573383cd.css.map": "/fashion-react/static/css/main.573383cd.css.map",
+    "main.db9e22ba.js.map": "/fashion-react/static/js/main.db9e22ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cb6e8d6.css",
-    "static/js/main.dac70307.js"
+    "static/css/main.573383cd.css",
+    "static/js/main.db9e22ba.js"
   ]
 }
