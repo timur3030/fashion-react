@@ -71,7 +71,7 @@ function Header({ elements }) {
                   DOWNLOAD
                 </a>
               </li>
-              <li>
+              <li className="li-btn">
                 <a
                   href="#!"
                   className="header__nav-btn"
